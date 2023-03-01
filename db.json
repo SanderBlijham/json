@@ -39,7 +39,7 @@
 		},
 		"2": {
 			"recordDamage": {
-				"id": 1,
+				"id": 2,
 				"location": "Berestijn",
 				"newDamage": "Ja",
 				"type": "Calamiteit",
@@ -48,14 +48,14 @@
 				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
 			},
 			"recordOverdueMaintenance": {
-				"id": 1,
+				"id": 2,
 				"location": "Berestijn",
 				"type": "Houtrot",
 				"immediateAction": "Ja",
 				"Kostenindicatie": "1500-2000"
 			},
 			"inspectTechnicalInstallations": {
-				"id": 1,
+				"id": 2,
 				"location": "Berestijn",
 				"type": "verwarming",
 				"reportedMalfunction": "Ja",
@@ -64,7 +64,7 @@
 				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
 			},
 			"identifyModifications": {
-				"id": 1,
+				"id": 2,
 				"existing": "existing1.pdf",
 				"place": "Keuken",
 				"executed": "huurder",
