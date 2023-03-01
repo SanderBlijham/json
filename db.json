@@ -1,82 +1,44 @@
 {
 	"inspections": {
-		"recordDamage": {
-			"q1": {
-				"question": "Which one is correct team name in NBA?",
-				"options": [
-					"New York Bulls",
-					"Los Angeles Kings",
-					"Golden State Warriros",
-					"Huston Rocket"
-				],
-				"answer": "Huston Rocket"
-			}
-		},
-		"recordOverdueMaintenance": {
-			"q1": {
-				"question": "5 + 7 = ?",
-				"options": [
-					"10",
-					"11",
-					"12",
-					"13"
-				],
-				"answer": "12"
-			},
-			"q2": {
-				"question": "12 - 8 = ?",
-				"options": [
-					"1",
-					"2",
-					"3",
-					"4"
-				],
-				"answer": "4"
-			}
-		},
-		"inspectTechnicalInstallations": {
-			"q1": {
-				"question": "5 + 7 = ?",
-				"options": [
-					"10",
-					"11",
-					"12",
-					"13"
-				],
-				"answer": "12"
-			},
-			"q2": {
-				"question": "12 - 8 = ?",
-				"options": [
-					"1",
-					"2",
-					"3",
-					"4"
-				],
-				"answer": "4"
-			}
-		},
-		"identifyModifications": {
-			"q1": {
-				"question": "5 + 7 = ?",
-				"options": [
-					"10",
-					"11",
-					"12",
-					"13"
-				],
-				"answer": "12"
-			},
-			"q2": {
-				"question": "12 - 8 = ?",
-				"options": [
-					"1",
-					"2",
-					"3",
-					"4"
-				],
-				"answer": "4"
-			}
-		}
+		"recordDamage": [{
+			"id": 1,
+			"location": "Berestijn",
+			"newDamage": "Ja",
+			"type": "Waterschade",
+			"date": "January 28, 2022",
+			"immediateAction": "Nee",			
+			"description": "Kleine gele plek op het plafond als gevolg van lekkage",
+		}],
+		"recordOverdueMaintenance": [{
+			"id": 123,
+			"category": "animal welfare",
+			"title": "Cat Adoption Day",
+			"description": "Find your new feline friend at this event.",
+			"location": "Meow Town",
+			"date": "January 28, 2022",
+			"time": "12:00",
+			"organizer": "Kat Laydee"
+		}],
+		"inspectTechnicalInstallations": [{
+			"id": 123,
+			"category": "animal welfare",
+			"title": "Cat Adoption Day",
+			"description": "Find your new feline friend at this event.",
+			"location": "Meow Town",
+			"date": "January 28, 2022",
+			"time": "12:00",
+			"organizer": "Kat Laydee"
+		}],
+		"identifyModifications": [{
+			"id": 123,
+			"category": "animal welfare",
+			"title": "Cat Adoption Day",
+			"description": "Find your new feline friend at this event.",
+			"location": "Meow Town",
+			"date": "January 28, 2022",
+			"time": "12:00",
+			"organizer": "Kat Laydee"
+		}]
+
 	}
 }
