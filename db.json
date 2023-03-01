@@ -5,40 +5,35 @@
 				"id": 1,
 				"location": "Berestijn",
 				"newDamage": "Ja",
-				"type": "Waterschade",
-				"date": "January 28, 2022",
-				"immediateAction": "Nee",
+				"type": "Calamiteit",
+				"date": "Januari 28, 2022",
+				"immediateAction": "Ja",
 				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
 			},
 			"recordOverdueMaintenance": {
 				"id": 1,
-				"category": "animal welfare",
-				"title": "Cat Adoption Day",
-				"description": "Find your new feline friend at this event.",
-				"location": "Meow Town",
-				"date": "January 28, 2022",
-				"time": "12:00",
-				"organizer": "Kat Laydee"
+				"location": "Berestijn",
+				"type": "Houtrot",
+				"immediateAction": "Ja",
+				"Kostenindicatie": "1500-2000"
 			},
 			"inspectTechnicalInstallations": {
 				"id": 1,
-				"category": "animal welfare",
-				"title": "Cat Adoption Day",
-				"description": "Find your new feline friend at this event.",
-				"location": "Meow Town",
-				"date": "January 28, 2022",
-				"time": "12:00",
-				"organizer": "Kat Laydee"
+				"location": "Berestijn",
+				"type": "verwarming",
+				"reportedMalfunction": "Ja",
+				"test": "test1.pdf",
+				"approved": "Ja",
+				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
 			},
 			"identifyModifications": {
 				"id": 1,
-				"category": "animal welfare",
-				"title": "Cat Adoption Day",
-				"description": "Find your new feline friend at this event.",
-				"location": "Meow Town",
-				"date": "January 28, 2022",
-				"time": "12:00",
-				"organizer": "Kat Laydee"
+				"existing": "existing1.pdf",
+				"place": "Keuken",
+				"executed": "huurder",
+				"description": "Nieuwe tegels",
+				"action": "accepteren",
+				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
 			}
 
 		},
@@ -47,40 +42,35 @@
 				"id": 1,
 				"location": "Berestijn",
 				"newDamage": "Ja",
-				"type": "Waterschade",
-				"date": "January 28, 2022",
-				"immediateAction": "Nee",
+				"type": "Calamiteit",
+				"date": "Januari 28, 2022",
+				"immediateAction": "Ja",
 				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
 			},
 			"recordOverdueMaintenance": {
 				"id": 1,
-				"category": "animal welfare",
-				"title": "Cat Adoption Day",
-				"description": "Find your new feline friend at this event.",
-				"location": "Meow Town",
-				"date": "January 28, 2022",
-				"time": "12:00",
-				"organizer": "Kat Laydee"
+				"location": "Berestijn",
+				"type": "Houtrot",
+				"immediateAction": "Ja",
+				"Kostenindicatie": "1500-2000"
 			},
 			"inspectTechnicalInstallations": {
 				"id": 1,
-				"category": "animal welfare",
-				"title": "Cat Adoption Day",
-				"description": "Find your new feline friend at this event.",
-				"location": "Meow Town",
-				"date": "January 28, 2022",
-				"time": "12:00",
-				"organizer": "Kat Laydee"
+				"location": "Berestijn",
+				"type": "verwarming",
+				"reportedMalfunction": "Ja",
+				"test": "test1.pdf",
+				"approved": "Ja",
+				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
 			},
 			"identifyModifications": {
 				"id": 1,
-				"category": "animal welfare",
-				"title": "Cat Adoption Day",
-				"description": "Find your new feline friend at this event.",
-				"location": "Meow Town",
-				"date": "January 28, 2022",
-				"time": "12:00",
-				"organizer": "Kat Laydee"
+				"existing": "existing1.pdf",
+				"place": "Keuken",
+				"executed": "huurder",
+				"description": "Nieuwe tegels",
+				"action": "accepteren",
+				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
 			}
 
 		}
