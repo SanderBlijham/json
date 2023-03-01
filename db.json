@@ -6,8 +6,8 @@
 			"newDamage": "Ja",
 			"type": "Waterschade",
 			"date": "January 28, 2022",
-			"immediateAction": "Nee",			
-			"description": "Kleine gele plek op het plafond als gevolg van lekkage",
+			"immediateAction": "Nee",
+			"description": "Kleine gele plek op het plafond als gevolg van lekkage"
 		}],
 		"recordOverdueMaintenance": [{
 			"id": 123,
