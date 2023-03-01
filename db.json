@@ -1,44 +1,46 @@
 {
 	"inspections": {
-		"recordDamage": [{
-			"id": 1,
-			"location": "Berestijn",
-			"newDamage": "Ja",
-			"type": "Waterschade",
-			"date": "January 28, 2022",
-			"immediateAction": "Nee",
-			"description": "Kleine gele plek op het plafond als gevolg van lekkage"
-		}],
-		"recordOverdueMaintenance": [{
-			"id": 123,
-			"category": "animal welfare",
-			"title": "Cat Adoption Day",
-			"description": "Find your new feline friend at this event.",
-			"location": "Meow Town",
-			"date": "January 28, 2022",
-			"time": "12:00",
-			"organizer": "Kat Laydee"
-		}],
-		"inspectTechnicalInstallations": [{
-			"id": 123,
-			"category": "animal welfare",
-			"title": "Cat Adoption Day",
-			"description": "Find your new feline friend at this event.",
-			"location": "Meow Town",
-			"date": "January 28, 2022",
-			"time": "12:00",
-			"organizer": "Kat Laydee"
-		}],
-		"identifyModifications": [{
-			"id": 123,
-			"category": "animal welfare",
-			"title": "Cat Adoption Day",
-			"description": "Find your new feline friend at this event.",
-			"location": "Meow Town",
-			"date": "January 28, 2022",
-			"time": "12:00",
-			"organizer": "Kat Laydee"
-		}]
+		"1": {
+			"recordDamage": {
+				"id": 1,
+				"location": "Berestijn",
+				"newDamage": "Ja",
+				"type": "Waterschade",
+				"date": "January 28, 2022",
+				"immediateAction": "Nee",
+				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
+			},
+			"recordOverdueMaintenance": {
+				"id": 1,
+				"category": "animal welfare",
+				"title": "Cat Adoption Day",
+				"description": "Find your new feline friend at this event.",
+				"location": "Meow Town",
+				"date": "January 28, 2022",
+				"time": "12:00",
+				"organizer": "Kat Laydee"
+			},
+			"inspectTechnicalInstallations": {
+				"id": 1,
+				"category": "animal welfare",
+				"title": "Cat Adoption Day",
+				"description": "Find your new feline friend at this event.",
+				"location": "Meow Town",
+				"date": "January 28, 2022",
+				"time": "12:00",
+				"organizer": "Kat Laydee"
+			},
+			"identifyModifications": {
+				"id": 1,
+				"category": "animal welfare",
+				"title": "Cat Adoption Day",
+				"description": "Find your new feline friend at this event.",
+				"location": "Meow Town",
+				"date": "January 28, 2022",
+				"time": "12:00",
+				"organizer": "Kat Laydee"
+			}
 
+		}
 	}
 }
