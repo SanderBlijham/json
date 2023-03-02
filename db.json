@@ -1,6 +1,6 @@
 {
-	"inspections": [{
-		"1": {
+	"inspections": {
+		"1": [{
 			"recordDamage": {
 				"id": 1,
 				"location": "Woonkamer",
@@ -36,8 +36,8 @@
 				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
 			}
 
-		},
-		"1": {
+		}],
+		"2": [{
 			"recordDamage": {
 				"id": 5,
 				"location": "Woonkamer",
@@ -73,6 +73,6 @@
 				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
 			}
 
-		}
+		}]
 	}
-]}
+}
