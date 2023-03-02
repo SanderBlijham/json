@@ -1,5 +1,5 @@
 {
-	"inspections": {
+	"inspections": [{
 		"1": {
 			"recordDamage": {
 				"id": 1,
@@ -75,4 +75,4 @@
 
 		}
 	}
-}
+]}
