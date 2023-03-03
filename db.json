@@ -1,7 +1,7 @@
 {
 	"Inspection": [{
 			"id": 1,
-			"recordDamage": [{
+			"recordDamage": {
 				"id": 1,
 				"location": "Woonkamer",
 				"newDamage": "Ja",
@@ -9,15 +9,15 @@
 				"date": "2023-01-16T19:20+01:00",
 				"immediateAction": "Ja",
 				"description": "Gat in de deur"
-			}],
-			"recordOverdueMaintenance": [{
+			},
+			"recordOverdueMaintenance": {
 				"id": 2,
 				"location": "Zolder",
 				"type": "Houtrot",
 				"immediateAction": "Ja",
 				"Kostenindicatie": "1500+"
-			}],
-			"inspectTechnicalInstallations": [{
+			},
+			"inspectTechnicalInstallations": {
 				"id": 3,
 				"location": "Keuken",
 				"type": "verwarming",
@@ -25,8 +25,8 @@
 				"test": "test1.pdf",
 				"approved": "Ja",
 				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
-			}],
-			"identifyModifications": [{
+			},
+			"identifyModifications": {
 				"id": 4,
 				"existing": "existing1.pdf",
 				"place": "Keuken",
@@ -34,11 +34,11 @@
 				"description": "Nieuwe tegels",
 				"action": "accepteren",
 				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
-			}]
+			}
 		},
 		{
 			"id": 2,
-			"recordDamage": [{
+			"recordDamage": {
 				"id": 1,
 				"location": "Woonkamer",
 				"newDamage": "Ja",
@@ -46,15 +46,15 @@
 				"date": "2023-01-16T19:20+01:00",
 				"immediateAction": "Ja",
 				"description": "Gat in de deur"
-			}],
-			"recordOverdueMaintenance": [{
+			},
+			"recordOverdueMaintenance": {
 				"id": 2,
 				"location": "Zolder",
 				"type": "Houtrot",
 				"immediateAction": "Ja",
 				"Kostenindicatie": "1500+"
-			}],
-			"inspectTechnicalInstallations": [{
+			},
+			"inspectTechnicalInstallations": {
 				"id": 3,
 				"location": "Keuken",
 				"type": "verwarming",
@@ -62,8 +62,8 @@
 				"test": "test1.pdf",
 				"approved": "Ja",
 				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
-			}],
-			"identifyModifications": [{
+			},
+			"identifyModifications": {
 				"id": 4,
 				"existing": "existing1.pdf",
 				"place": "Keuken",
@@ -71,11 +71,11 @@
 				"description": "Nieuwe tegels",
 				"action": "accepteren",
 				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
-			}]
+			}
 		},
 		{
 			"id": 3,
-			"recordDamage": [{
+			"recordDamage": {
 				"id": 1,
 				"location": "Woonkamer",
 				"newDamage": "Ja",
@@ -83,15 +83,15 @@
 				"date": "2023-01-16T19:20+01:00",
 				"immediateAction": "Ja",
 				"description": "Gat in de deur"
-			}],
-			"recordOverdueMaintenance": [{
+			},
+			"recordOverdueMaintenance": {
 				"id": 2,
 				"location": "Zolder",
 				"type": "Houtrot",
 				"immediateAction": "Ja",
 				"Kostenindicatie": "1500+"
-			}],
-			"inspectTechnicalInstallations": [{
+			},
+			"inspectTechnicalInstallations": {
 				"id": 3,
 				"location": "Keuken",
 				"type": "verwarming",
@@ -99,8 +99,8 @@
 				"test": "test1.pdf",
 				"approved": "Ja",
 				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
-			}],
-			"identifyModifications": [{
+			},
+			"identifyModifications": {
 				"id": 4,
 				"existing": "existing1.pdf",
 				"place": "Keuken",
@@ -108,11 +108,11 @@
 				"description": "Nieuwe tegels",
 				"action": "accepteren",
 				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
-			}]
+			}
 		},
 		{
 			"id": 4,
-			"recordDamage": [{
+			"recordDamage": {
 				"id": 1,
 				"location": "Woonkamer",
 				"newDamage": "Ja",
@@ -120,15 +120,15 @@
 				"date": "2023-01-16T19:20+01:00",
 				"immediateAction": "Ja",
 				"description": "Gat in de deur"
-			}],
-			"recordOverdueMaintenance": [{
+			},
+			"recordOverdueMaintenance": {
 				"id": 2,
 				"location": "Zolder",
 				"type": "Houtrot",
 				"immediateAction": "Ja",
 				"Kostenindicatie": "1500+"
-			}],
-			"inspectTechnicalInstallations": [{
+			},
+			"inspectTechnicalInstallations": {
 				"id": 3,
 				"location": "Keuken",
 				"type": "verwarming",
@@ -136,8 +136,8 @@
 				"test": "test1.pdf",
 				"approved": "Ja",
 				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
-			}],
-			"identifyModifications": [{
+			},
+			"identifyModifications": {
 				"id": 4,
 				"existing": "existing1.pdf",
 				"place": "Keuken",
@@ -145,11 +145,11 @@
 				"description": "Nieuwe tegels",
 				"action": "accepteren",
 				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
-			}]
+			}
 		},
 		{
 			"id": 5,
-			"recordDamage": [{
+			"recordDamage": {
 				"id": 1,
 				"location": "Woonkamer",
 				"newDamage": "Ja",
@@ -157,15 +157,15 @@
 				"date": "2023-01-16T19:20+01:00",
 				"immediateAction": "Ja",
 				"description": "Gat in de deur"
-			}],
-			"recordOverdueMaintenance": [{
+			},
+			"recordOverdueMaintenance": {
 				"id": 2,
 				"location": "Zolder",
 				"type": "Houtrot",
 				"immediateAction": "Ja",
 				"Kostenindicatie": "1500+"
-			}],
-			"inspectTechnicalInstallations": [{
+			},
+			"inspectTechnicalInstallations": {
 				"id": 3,
 				"location": "Keuken",
 				"type": "verwarming",
@@ -173,8 +173,8 @@
 				"test": "test1.pdf",
 				"approved": "Ja",
 				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
-			}],
-			"identifyModifications": [{
+			},
+			"identifyModifications": {
 				"id": 4,
 				"existing": "existing1.pdf",
 				"place": "Keuken",
@@ -182,7 +182,7 @@
 				"description": "Nieuwe tegels",
 				"action": "accepteren",
 				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
-			}]
+			}
 		}
 	]
 }
