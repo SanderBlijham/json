@@ -1,6 +1,5 @@
 {
-	"inspectionsData": {
-		"inspection": [{
+	"inspection": [{
 				"id": 1,
 				"user": "huurder1",
 				"completed": "true,",
@@ -211,4 +210,3 @@
 			}
 		]
 	}
-}
