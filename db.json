@@ -1,188 +1,212 @@
 {
 	"Inspection": [{
 			"id": 1,
-			"recordDamage": {
+			"user": "huurder1",
+			"completed": "true,",
+			"recordDamage": [{
+					"id": 1,
+					"location": "Woonkamer",
+					"newDamage": "Ja",
+					"type": "Calamiteit",
+					"date": "2023-01-16T19:20+01:00",
+					"immediateAction": "Ja",
+					"description": "Gat in de deur",
+					"image": [{
+						"id": 1,
+						"img": "img1"
+					}, {
+						"id": 2,
+						"img": "img2"
+					}]
+				},
+				{
+					"id": 2,
+					"location": "Badkamer",
+					"newDamage": "Ja",
+					"type": "Calamiteit",
+					"date": "2023-01-16T19:20+01:00",
+					"immediateAction": "Nee",
+					"description": "Gat in de deur",
+					"image": [{
+						"id": 1,
+						"img": "img1"
+					}]
+				}
+			],
+			"recordOverdueMaintenance": [{
 				"id": 1,
-				"location": "Woonkamer",
-				"newDamage": "Ja",
-				"type": "Calamiteit",
-				"date": "2023-01-16T19:20+01:00",
-				"immediateAction": "Ja",
-				"description": "Gat in de deur"
-			},
-			"recordOverdueMaintenance": {
-				"id": 2,
 				"location": "Zolder",
 				"type": "Houtrot",
 				"immediateAction": "Ja",
-				"Kostenindicatie": "1500+"
-			},
-			"inspectTechnicalInstallations": {
-				"id": 3,
+				"costIndication": "1500+",
+				"image": [{
+					"id": 1,
+					"img": "img1"
+				}]
+			}],
+			"inspectTechnicalInstallations": [{
+				"id": 1,
 				"location": "Keuken",
 				"type": "verwarming",
 				"reportedMalfunction": "Ja",
 				"test": "test1.pdf",
 				"approved": "Ja",
-				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
-			},
-			"identifyModifications": {
-				"id": 4,
+				"description": "Kleine gele plek op het plafond als gevolg van lekkage",
+				"image": [{
+					"id": 1,
+					"img": "img1"
+				}]
+			}],
+			"identifyModifications": [{
+				"id": 1,
 				"existing": "existing1.pdf",
 				"place": "Keuken",
 				"executed": "huurder",
-				"description": "Nieuwe tegels",
+				"descriptionModification": "Nieuwe tegels",
 				"action": "accepteren",
-				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
-			}
+				"description": "nieuwe witte tegels geplaatst, geen bezwaar",
+				"image": [{
+					"id": 1,
+					"img": "img1"
+				}]
+			}]
 		},
 		{
 			"id": 2,
-			"recordDamage": {
+			"user": "huurder2",
+			"completed": "true,",
+			"recordDamage": [{
 				"id": 1,
-				"location": "Woonkamer",
+				"location": "Badkamer",
 				"newDamage": "Ja",
 				"type": "Calamiteit",
 				"date": "2023-01-16T19:20+01:00",
-				"immediateAction": "Ja",
-				"description": "Gat in de deur"
-			},
-			"recordOverdueMaintenance": {
-				"id": 2,
+				"immediateAction": "Nee",
+				"description": "Gat in de deur",
+				"image": [{
+					"id": 1,
+					"img": "img1"
+				}]
+			}],
+			"recordOverdueMaintenance": [{
+				"id": 1,
 				"location": "Zolder",
 				"type": "Houtrot",
 				"immediateAction": "Ja",
-				"Kostenindicatie": "1500+"
-			},
-			"inspectTechnicalInstallations": {
-				"id": 3,
+				"costIndication": "1500+",
+				"image": [{
+					"id": 1,
+					"img": "img1"
+				}]
+			}],
+			"inspectTechnicalInstallations": [{
+				"id": 1,
 				"location": "Keuken",
 				"type": "verwarming",
 				"reportedMalfunction": "Ja",
 				"test": "test1.pdf",
 				"approved": "Ja",
-				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
-			},
-			"identifyModifications": {
-				"id": 4,
+				"description": "Kleine gele plek op het plafond als gevolg van lekkage",
+				"image": [{
+					"id": 1,
+					"img": "img1"
+				}]
+			}],
+			"identifyModifications": [{
+				"id": 1,
 				"existing": "existing1.pdf",
 				"place": "Keuken",
 				"executed": "huurder",
-				"description": "Nieuwe tegels",
+				"descriptionModification": "Nieuwe tegels",
 				"action": "accepteren",
-				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
-			}
+				"description": "nieuwe witte tegels geplaatst, geen bezwaar",
+				"image": [{
+					"id": 1,
+					"img": "img1"
+				}]
+			}]
 		},
 		{
 			"id": 3,
-			"recordDamage": {
+			"user": "huurder3",
+			"completed": "true,",
+			"identifyModifications": [{
 				"id": 1,
-				"location": "Woonkamer",
-				"newDamage": "Ja",
-				"type": "Calamiteit",
-				"date": "2023-01-16T19:20+01:00",
-				"immediateAction": "Ja",
-				"description": "Gat in de deur"
-			},
-			"recordOverdueMaintenance": {
-				"id": 2,
-				"location": "Zolder",
-				"type": "Houtrot",
-				"immediateAction": "Ja",
-				"Kostenindicatie": "1500+"
-			},
-			"inspectTechnicalInstallations": {
-				"id": 3,
-				"location": "Keuken",
-				"type": "verwarming",
-				"reportedMalfunction": "Ja",
-				"test": "test1.pdf",
-				"approved": "Ja",
-				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
-			},
-			"identifyModifications": {
-				"id": 4,
 				"existing": "existing1.pdf",
 				"place": "Keuken",
 				"executed": "huurder",
-				"description": "Nieuwe tegels",
+				"descriptionModification": "Nieuwe tegels",
 				"action": "accepteren",
-				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
-			}
+				"description": "nieuwe witte tegels geplaatst, geen bezwaar",
+				"image": [{
+					"id": 1,
+					"img": "img1"
+				}]
+			}]
 		},
 		{
 			"id": 4,
-			"recordDamage": {
+			"user": "huurder4",
+			"completed": "true,",
+			"recordOverdueMaintenance": [{
 				"id": 1,
-				"location": "Woonkamer",
-				"newDamage": "Ja",
-				"type": "Calamiteit",
-				"date": "2023-01-16T19:20+01:00",
-				"immediateAction": "Ja",
-				"description": "Gat in de deur"
-			},
-			"recordOverdueMaintenance": {
-				"id": 2,
 				"location": "Zolder",
 				"type": "Houtrot",
 				"immediateAction": "Ja",
-				"Kostenindicatie": "1500+"
-			},
-			"inspectTechnicalInstallations": {
-				"id": 3,
+				"costIndication": "1500+",
+				"image": [{
+					"id": 1,
+					"img": "img1"
+				}]
+			}],
+			"inspectTechnicalInstallations": [{
+				"id": 1,
 				"location": "Keuken",
 				"type": "verwarming",
 				"reportedMalfunction": "Ja",
 				"test": "test1.pdf",
 				"approved": "Ja",
-				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
-			},
-			"identifyModifications": {
-				"id": 4,
-				"existing": "existing1.pdf",
-				"place": "Keuken",
-				"executed": "huurder",
-				"description": "Nieuwe tegels",
-				"action": "accepteren",
-				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
-			}
+				"description": "Kleine gele plek op het plafond als gevolg van lekkage",
+				"image": [{
+					"id": 1,
+					"img": "img1"
+				}]
+			}]
 		},
 		{
 			"id": 5,
-			"recordDamage": {
-				"id": 1,
-				"location": "Woonkamer",
-				"newDamage": "Ja",
-				"type": "Calamiteit",
-				"date": "2023-01-16T19:20+01:00",
-				"immediateAction": "Ja",
-				"description": "Gat in de deur"
-			},
-			"recordOverdueMaintenance": {
-				"id": 2,
-				"location": "Zolder",
-				"type": "Houtrot",
-				"immediateAction": "Ja",
-				"Kostenindicatie": "1500+"
-			},
-			"inspectTechnicalInstallations": {
-				"id": 3,
-				"location": "Keuken",
-				"type": "verwarming",
-				"reportedMalfunction": "Ja",
-				"test": "test1.pdf",
-				"approved": "Ja",
-				"description": "Kleine gele plek op het plafond als gevolg van lekkage"
-			},
-			"identifyModifications": {
-				"id": 4,
-				"existing": "existing1.pdf",
-				"place": "Keuken",
-				"executed": "huurder",
-				"description": "Nieuwe tegels",
-				"action": "accepteren",
-				"decription": "nieuwe witte tegels geplaatst, geen bezwaar"
-			}
+			"user": "huurder5",
+			"completed": "true,",
+			"recordDamage": [{
+					"id": 1,
+					"location": "Woonkamer",
+					"newDamage": "Ja",
+					"type": "Calamiteit",
+					"date": "2023-01-16T19:20+01:00",
+					"immediateAction": "Ja",
+					"description": "Gat in de deur",
+					"image": [{
+						"id": 1,
+						"img": "img1"
+					}, {
+						"id": 2,
+						"img": "img2"
+					}]
+				},
+				{
+					"id": 2,
+					"location": "Badkamer",
+					"newDamage": "Ja",
+					"type": "Calamiteit",
+					"date": "2023-01-16T19:20+01:00",
+					"immediateAction": "Nee",
+					"description": "Gat in de deur",
+					"image": [{
+						"id": 1,
+						"img": "img1"
+					}]
+				}
+			]
 		}
 	]
 }
