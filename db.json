@@ -45,7 +45,7 @@
 						"img": "img1"
 					}]
 				}],
-				"inspectionsTechnicalInstallations": [{
+				"technicalInstallationInspections": [{
 					"id": 1,
 					"location": "Keuken",
 					"type": "verwarming",
@@ -101,7 +101,7 @@
 						"img": "img1"
 					}]
 				}],
-				"inspectionsTechnicalInstallations": [{
+				"technicalInstallationInspections": [{
 					"id": 1,
 					"location": "Keuken",
 					"type": "verwarming",
@@ -163,7 +163,7 @@
 						"img": "img1"
 					}]
 				}],
-				"inspectionsTechnicalInstallations": [{
+				"technicalInstallationInspections": [{
 					"id": 1,
 					"location": "Keuken",
 					"type": "verwarming",
