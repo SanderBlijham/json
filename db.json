@@ -34,7 +34,7 @@
 						}]
 					}
 				],
-				"overdueMaintenancesRecords": [{
+				"overdueMaintenanceRecords": [{
 					"id": 1,
 					"location": "Zolder",
 					"type": "Houtrot",
@@ -90,7 +90,7 @@
 						"img": "img1"
 					}]
 				}],
-				"overdueMaintenancesRecords": [{
+				"overdueMaintenanceRecords": [{
 					"id": 1,
 					"location": "Zolder",
 					"type": "Houtrot",
@@ -152,7 +152,7 @@
 				"user": "huurder4",
 				"date": "2023-03-07T19:20+01:00",
 				"completed": "true,",
-				"overdueMaintenancesRecords": [{
+				"overdueMaintenanceRecords": [{
 					"id": 1,
 					"location": "Zolder",
 					"type": "Houtrot",
