@@ -1,10 +1,10 @@
-{"inspection": {
-	"inspection": [{
+{"inspections": {
+	"inspections": [{
 				"id": 1,
 				"user": "huurder1",
 				"date": "2023-01-16T19:20+01:00",
 				"completed": "true,",
-				"recordDamage": [{
+				"damageRecords": [{
 						"id": 1,
 						"location": "Woonkamer",
 						"newDamage": "Ja",
@@ -12,7 +12,7 @@
 						"date": "2023-01-16T19:20+01:00",
 						"immediateAction": "Ja",
 						"description": "Gat in de deur",
-						"image": [{
+						"images": [{
 							"id": 1,
 							"img": "img1"
 						}, {
@@ -28,24 +28,24 @@
 						"date": "2023-01-16T19:20+01:00",
 						"immediateAction": "Nee",
 						"description": "Gat in de deur",
-						"image": [{
+						"images": [{
 							"id": 1,
 							"img": "img1"
 						}]
 					}
 				],
-				"recordOverdueMaintenance": [{
+				"overdueMaintenanceRecords": [{
 					"id": 1,
 					"location": "Zolder",
 					"type": "Houtrot",
 					"immediateAction": "Ja",
 					"costIndication": "1500+",
-					"image": [{
+					"images": [{
 						"id": 1,
 						"img": "img1"
 					}]
 				}],
-				"inspectTechnicalInstallations": [{
+				"technicalInstallationInspections": [{
 					"id": 1,
 					"location": "Keuken",
 					"type": "verwarming",
@@ -53,7 +53,7 @@
 					"test": "test1.pdf",
 					"approved": "Ja",
 					"description": "Kleine gele plek op het plafond als gevolg van lekkage",
-					"image": [{
+					"images": [{
 						"id": 1,
 						"img": "img1"
 					}]
@@ -66,7 +66,7 @@
 					"descriptionModification": "Nieuwe tegels",
 					"action": "accepteren",
 					"description": "nieuwe witte tegels geplaatst, geen bezwaar",
-					"image": [{
+					"images": [{
 						"id": 1,
 						"img": "img1"
 					}]
@@ -77,7 +77,7 @@
 				"user": "huurder2",
 				"date": "2023-02-16T19:20+01:00",
 				"completed": "true,",
-				"recordDamage": [{
+				"damageRecords": [{
 					"id": 1,
 					"location": "Badkamer",
 					"newDamage": "Ja",
@@ -85,23 +85,23 @@
 					"date": "2023-01-16T19:20+01:00",
 					"immediateAction": "Nee",
 					"description": "Gat in de deur",
-					"image": [{
+					"images": [{
 						"id": 1,
 						"img": "img1"
 					}]
 				}],
-				"recordOverdueMaintenance": [{
+				"overdueMaintenanceRecords": [{
 					"id": 1,
 					"location": "Zolder",
 					"type": "Houtrot",
 					"immediateAction": "Ja",
 					"costIndication": "1500+",
-					"image": [{
+					"images": [{
 						"id": 1,
 						"img": "img1"
 					}]
 				}],
-				"inspectTechnicalInstallations": [{
+				"technicalInstallationInspections": [{
 					"id": 1,
 					"location": "Keuken",
 					"type": "verwarming",
@@ -109,7 +109,7 @@
 					"test": "test1.pdf",
 					"approved": "Ja",
 					"description": "Kleine gele plek op het plafond als gevolg van lekkage",
-					"image": [{
+					"images": [{
 						"id": 1,
 						"img": "img1"
 					}]
@@ -122,7 +122,7 @@
 					"descriptionModification": "Nieuwe tegels",
 					"action": "accepteren",
 					"description": "nieuwe witte tegels geplaatst, geen bezwaar",
-					"image": [{
+					"images": [{
 						"id": 1,
 						"img": "img1"
 					}]
@@ -141,7 +141,7 @@
 					"descriptionModification": "Nieuwe tegels",
 					"action": "accepteren",
 					"description": "nieuwe witte tegels geplaatst, geen bezwaar",
-					"image": [{
+					"images": [{
 						"id": 1,
 						"img": "img1"
 					}]
@@ -152,18 +152,18 @@
 				"user": "huurder4",
 				"date": "2023-03-07T19:20+01:00",
 				"completed": "true,",
-				"recordOverdueMaintenance": [{
+				"overdueMaintenanceRecords": [{
 					"id": 1,
 					"location": "Zolder",
 					"type": "Houtrot",
 					"immediateAction": "Ja",
 					"costIndication": "1500+",
-					"image": [{
+					"images": [{
 						"id": 1,
 						"img": "img1"
 					}]
 				}],
-				"inspectTechnicalInstallations": [{
+				"technicalInstallationInspections": [{
 					"id": 1,
 					"location": "Keuken",
 					"type": "verwarming",
@@ -171,7 +171,7 @@
 					"test": "test1.pdf",
 					"approved": "Ja",
 					"description": "Kleine gele plek op het plafond als gevolg van lekkage",
-					"image": [{
+					"images": [{
 						"id": 1,
 						"img": "img1"
 					}]
@@ -182,7 +182,7 @@
 				"user": "huurder5",
 				"date": "2023-01-03T19:20+01:00",
 				"completed": "true,",
-				"recordDamage": [{
+				"damageRecords": [{
 						"id": 1,
 						"location": "Woonkamer",
 						"newDamage": "Ja",
@@ -190,7 +190,7 @@
 						"date": "2023-01-16T19:20+01:00",
 						"immediateAction": "Ja",
 						"description": "Gat in de deur",
-						"image": [{
+						"images": [{
 							"id": 1,
 							"img": "img1"
 						}, {
@@ -206,7 +206,7 @@
 						"date": "2023-01-16T19:20+01:00",
 						"immediateAction": "Nee",
 						"description": "Gat in de deur",
-						"image": [{
+						"images": [{
 							"id": 1,
 							"img": "img1"
 						}]
