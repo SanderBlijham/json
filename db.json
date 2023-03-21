@@ -2,8 +2,8 @@
 	"inspections": [{
 				"id": 1,
 				"user": "huurder1",
-				"date": "2023-01-16T19:20+01:00",
-				"completed": "true,",
+				"dateAssignment": "2023-01-14T19:20+01:00",
+				"completed": "true",
 				"damageRecords": [{
 						"id": 1,
 						"location": "Woonkamer",
@@ -75,8 +75,8 @@
 			{
 				"id": 2,
 				"user": "huurder2",
-				"date": "2023-02-16T19:20+01:00",
-				"completed": "true,",
+				"dateAssignment": "2023-02-14T19:20+01:00",
+				"completed": "true",
 				"damageRecords": [{
 					"id": 1,
 					"location": "Badkamer",
@@ -131,8 +131,8 @@
 			{
 				"id": 3,
 				"user": "huurder3",
-				"date": "2023-01-28T19:20+01:00",
-				"completed": "true,",
+				"dateAssignment": "2023-01-26T19:20+01:00",
+				"completed": "true",
 				"identifyModifications": [{
 					"id": 1,
 					"existing": "existing1.pdf",
@@ -150,8 +150,8 @@
 			{
 				"id": 4,
 				"user": "huurder4",
-				"date": "2023-03-07T19:20+01:00",
-				"completed": "true,",
+				"dateAssignment": "2023-03-05T19:20+01:00",
+				"completed": "true",
 				"overdueMaintenanceRecords": [{
 					"id": 1,
 					"location": "Zolder",
@@ -180,8 +180,8 @@
 			{
 				"id": 5,
 				"user": "huurder5",
-				"date": "2023-01-03T19:20+01:00",
-				"completed": "true,",
+				"dateAssignment": "2023-01-01T19:20+01:00",
+				"completed": "true",
 				"damageRecords": [{
 						"id": 1,
 						"location": "Woonkamer",
@@ -212,6 +212,17 @@
 						}]
 					}
 				]
+			},
+			{
+				"id": 6,
+				"user": "huurder5",
+				"dateAssignment": "2023-03-19T19:20+01:00",
+				"completed": "false",
+				"damageRecords": [],
+				"overdueMaintenanceRecords":[],
+				"technicalInstallationInspections": [],
+				"identifyModifications": []
+
 			}
 		]
 	}
