@@ -1,11 +1,13 @@
-{"inspections": {
-	"inspections": [{
+{
+	"inspections": {
+		"inspections": [{
 				"id": 1,
 				"user": "huurder1",
 				"dateAssignment": "2023-01-14T19:20+01:00",
-				"completed": "true",
+				"completed": true,
 				"damageRecords": [{
 						"id": 1,
+						"used": true,
 						"location": "Woonkamer",
 						"newDamage": "Ja",
 						"type": "Calamiteit",
@@ -18,10 +20,12 @@
 						}, {
 							"id": 2,
 							"img": "img2"
-						}]
+						}],
+						"imagesNew": []
 					},
 					{
 						"id": 2,
+						"used": true,
 						"location": "Badkamer",
 						"newDamage": "Ja",
 						"type": "Calamiteit",
@@ -31,11 +35,13 @@
 						"images": [{
 							"id": 1,
 							"img": "img1"
-						}]
+						}],
+						"imagesNew": []
 					}
 				],
 				"overdueMaintenanceRecords": [{
 					"id": 1,
+					"used": true,
 					"location": "Zolder",
 					"type": "Houtrot",
 					"immediateAction": "Ja",
@@ -43,10 +49,12 @@
 					"images": [{
 						"id": 1,
 						"img": "img1"
-					}]
+					}],
+					"imagesNew": []
 				}],
 				"technicalInstallationInspections": [{
 					"id": 1,
+					"used": true,
 					"location": "Keuken",
 					"type": "verwarming",
 					"reportedMalfunction": "Ja",
@@ -56,10 +64,12 @@
 					"images": [{
 						"id": 1,
 						"img": "img1"
-					}]
+					}],
+					"imagesNew": []
 				}],
 				"identifyModifications": [{
 					"id": 1,
+					"used": true,
 					"existing": "existing1.pdf",
 					"place": "Keuken",
 					"executed": "huurder",
@@ -69,16 +79,18 @@
 					"images": [{
 						"id": 1,
 						"img": "img1"
-					}]
+					}],
+					"imagesNew": []
 				}]
 			},
 			{
 				"id": 2,
 				"user": "huurder2",
 				"dateAssignment": "2023-02-14T19:20+01:00",
-				"completed": "true",
+				"completed": true,
 				"damageRecords": [{
 					"id": 1,
+					"used": true,
 					"location": "Badkamer",
 					"newDamage": "Ja",
 					"type": "Calamiteit",
@@ -88,10 +100,12 @@
 					"images": [{
 						"id": 1,
 						"img": "img1"
-					}]
+					}],
+					"imagesNew": []
 				}],
 				"overdueMaintenanceRecords": [{
 					"id": 1,
+					"used": true,
 					"location": "Zolder",
 					"type": "Houtrot",
 					"immediateAction": "Ja",
@@ -99,10 +113,12 @@
 					"images": [{
 						"id": 1,
 						"img": "img1"
-					}]
+					}],
+					"imagesNew": []
 				}],
 				"technicalInstallationInspections": [{
 					"id": 1,
+					"used": true,
 					"location": "Keuken",
 					"type": "verwarming",
 					"reportedMalfunction": "Ja",
@@ -112,10 +128,12 @@
 					"images": [{
 						"id": 1,
 						"img": "img1"
-					}]
+					}],
+					"imagesNew": []
 				}],
 				"identifyModifications": [{
 					"id": 1,
+					"used": true,
 					"existing": "existing1.pdf",
 					"place": "Keuken",
 					"executed": "huurder",
@@ -125,16 +143,18 @@
 					"images": [{
 						"id": 1,
 						"img": "img1"
-					}]
+					}],
+					"imagesNew": []
 				}]
 			},
 			{
 				"id": 3,
 				"user": "huurder3",
 				"dateAssignment": "2023-01-26T19:20+01:00",
-				"completed": "true",
+				"completed": true,
 				"identifyModifications": [{
 					"id": 1,
+					"used": true,
 					"existing": "existing1.pdf",
 					"place": "Keuken",
 					"executed": "huurder",
@@ -145,15 +165,17 @@
 						"id": 1,
 						"img": "img1"
 					}]
-				}]
+				}],
+				"imagesNew": []
 			},
 			{
 				"id": 4,
 				"user": "huurder4",
 				"dateAssignment": "2023-03-05T19:20+01:00",
-				"completed": "true",
+				"completed": true,
 				"overdueMaintenanceRecords": [{
 					"id": 1,
+					"used": true,
 					"location": "Zolder",
 					"type": "Houtrot",
 					"immediateAction": "Ja",
@@ -161,10 +183,12 @@
 					"images": [{
 						"id": 1,
 						"img": "img1"
-					}]
+					}],
+					"imagesNew": []
 				}],
 				"technicalInstallationInspections": [{
 					"id": 1,
+					"used": true,
 					"location": "Keuken",
 					"type": "verwarming",
 					"reportedMalfunction": "Ja",
@@ -174,16 +198,18 @@
 					"images": [{
 						"id": 1,
 						"img": "img1"
-					}]
+					}],
+					"imagesNew": []
 				}]
 			},
 			{
 				"id": 5,
 				"user": "huurder5",
 				"dateAssignment": "2023-01-01T19:20+01:00",
-				"completed": "true",
+				"completed": true,
 				"damageRecords": [{
 						"id": 1,
+						"used": true,
 						"location": "Woonkamer",
 						"newDamage": "Ja",
 						"type": "Calamiteit",
@@ -196,10 +222,12 @@
 						}, {
 							"id": 2,
 							"img": "img2"
-						}]
+						}],
+						"imagesNew": []
 					},
 					{
 						"id": 2,
+						"used": true,
 						"location": "Badkamer",
 						"newDamage": "Ja",
 						"type": "Calamiteit",
@@ -209,7 +237,8 @@
 						"images": [{
 							"id": 1,
 							"img": "img1"
-						}]
+						}],
+						"imagesNew": []
 					}
 				]
 			},
@@ -217,12 +246,106 @@
 				"id": 6,
 				"user": "huurder6",
 				"dateAssignment": "2023-03-19T19:20+01:00",
-				"completed": "false",
-				"damageRecords": [],
-				"overdueMaintenanceRecords":[],
-				"technicalInstallationInspections": [],
-				"identifyModifications": []
+				"completedInspection": false,
+				"damageRecords": [{
+					"id": null,
+					"used": false,
+					"location": null,
+					"newDamage": null,
+					"type": null,
+					"date": null,
+					"immediateAction": null,
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}],
+				"overdueMaintenanceRecords": [{
+					"id": null,
+					"used": false,
+					"location": null,
+					"type": null,
+					"immediateAction": null,
+					"costIndication": null,
+					"images": [],
+					"imagesNew": []
+				}],
+				"technicalInstallationInspections": [{
+					"id": null,
+					"used": false,
+					"location": null,
+					"type": null,
+					"reportedMalfunction": null,
+					"test": null,
+					"approved": null,
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}],
+				"identifyModifications": [{
+					"id": null,
+					"used": false,
+					"existing": null,
+					"place": null,
+					"executed": null,
+					"descriptionModification": null,
+					"action": "accepteren",
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}]
 
+			},
+			{
+				"id": 7,
+				"user": "huurder7",
+				"dateAssignment": "2023-03-22T19:20+01:00",
+				"completedInspection": false,
+				"damageRecords": [{
+					"id": null,
+					"used": false,
+					"location": null,
+					"newDamage": null,
+					"type": null,
+					"date": null,
+					"immediateAction": null,
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}],
+				"overdueMaintenanceRecords": [{
+					"id": null,
+					"used": false,
+					"location": null,
+					"type": null,
+					"immediateAction": null,
+					"costIndication": null,
+					"images": [],
+					"imagesNew": []
+				}],
+				"technicalInstallationInspections": [{
+					"id": null,
+					"used": false,
+					"location": null,
+					"type": null,
+					"reportedMalfunction": null,
+					"test": null,
+					"approved": null,
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}],
+				"identifyModifications": [{
+					"id": null,
+					"used": false,
+					"existing": null,
+					"place": null,
+					"executed": null,
+					"descriptionModification": null,
+					"action": "accepteren",
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}]
 			}
 		]
 	}
