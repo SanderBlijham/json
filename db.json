@@ -152,6 +152,40 @@
 				"user": "huurder3",
 				"dateAssignment": "2023-01-26T19:20+01:00",
 				"completed": true,
+				"damageRecords": [{
+					"id": 1,
+					"used": false,
+					"location": null,
+					"newDamage": null,
+					"type": null,
+					"date": null,
+					"immediateAction": null,
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}],		
+				"overdueMaintenanceRecords": [{
+					"id": 1,
+					"used": false,
+					"location": null,
+					"type": null,
+					"immediateAction": null,
+					"costIndication": null,
+					"images": [],
+					"imagesNew": []
+				}],	
+				"technicalInstallationInspections": [{
+					"id": 1,
+					"used": false,
+					"location": null,
+					"type": null,
+					"reportedMalfunction": null,
+					"test": null,
+					"approved": null,
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}],				
 				"identifyModifications": [{
 					"id": 1,
 					"used": true,
@@ -173,6 +207,18 @@
 				"user": "huurder4",
 				"dateAssignment": "2023-03-05T19:20+01:00",
 				"completed": true,
+				"damageRecords": [{
+					"id": 1,
+					"used": false,
+					"location": null,
+					"newDamage": null,
+					"type": null,
+					"date": null,
+					"immediateAction": null,
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}],				
 				"overdueMaintenanceRecords": [{
 					"id": 1,
 					"used": true,
@@ -200,7 +246,19 @@
 						"img": "img1"
 					}],
 					"imagesNew": []
-				}]
+				}],
+				"identifyModifications": [{
+					"id": 1,
+					"used": false,
+					"existing": null,
+					"place": null,
+					"executed": null,
+					"descriptionModification": null,
+					"action": "accepteren",
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}]				
 			},
 			{
 				"id": 5,
@@ -240,7 +298,41 @@
 						}],
 						"imagesNew": []
 					}
-				]
+				],
+				"overdueMaintenanceRecords": [{
+					"id": 1,
+					"used": false,
+					"location": null,
+					"type": null,
+					"immediateAction": null,
+					"costIndication": null,
+					"images": [],
+					"imagesNew": []
+				}],	
+				"technicalInstallationInspections": [{
+					"id": 1,
+					"used": false,
+					"location": null,
+					"type": null,
+					"reportedMalfunction": null,
+					"test": null,
+					"approved": null,
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}],		
+				"identifyModifications": [{
+					"id": 1,
+					"used": false,
+					"existing": null,
+					"place": null,
+					"executed": null,
+					"descriptionModification": null,
+					"action": "accepteren",
+					"description": null,
+					"images": [],
+					"imagesNew": []
+				}]				
 			},
 			{
 				"id": 6,
