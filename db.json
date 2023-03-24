@@ -261,65 +261,6 @@
 				}]				
 			},
 			{
-				"id": 5,
-				"user": "huurder5",
-				"dateAssignment": "2023-01-01T19:20+01:00",
-				"completed": true,
-				"damageRecords": [{
-						"id": 1,
-						"used": true,
-						"location": "Woonkamer",
-						"newDamage": "Ja",
-						"type": "Calamiteit",
-						"date": "2023-01-16T19:20+01:00",
-						"immediateAction": "Ja",
-						"description": "Gat in de deur",
-						"images": [{
-							"id": 1,
-							"img": "img1"
-						}, {
-							"id": 2,
-							"img": "img2"
-						}],
-						"imagesNew": []
-					}
-				],
-				"overdueMaintenanceRecords": [{
-					"id": 1,
-					"used": false,
-					"location": null,
-					"type": null,
-					"immediateAction": null,
-					"costIndication": null,
-					"images": [],
-					"imagesNew": []
-				}],	
-				"technicalInstallationInspections": [{
-					"id": 1,
-					"used": false,
-					"location": null,
-					"type": null,
-					"reportedMalfunction": null,
-					"test": null,
-					"approved": null,
-					"description": null,
-					"images": [],
-					"imagesNew": []
-				}],		
-				"identifyModifications": [{
-					"id": 1,
-					"used": false,
-					"existing": null,
-					"place": null,
-					"executed": null,
-					"descriptionModification": null,
-					"action": "accepteren",
-					"description": null,
-					"images": [],
-					"imagesNew": []
-				}]				
-			},
-			{
 				"id": 6,
 				"user": "huurder6",
 				"dateAssignment": "2023-03-19T19:20+01:00",
