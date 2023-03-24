@@ -282,21 +282,6 @@
 							"img": "img2"
 						}],
 						"imagesNew": []
-					},
-					{
-						"id": 2,
-						"used": true,
-						"location": "Badkamer",
-						"newDamage": "Ja",
-						"type": "Calamiteit",
-						"date": "2023-01-16T19:20+01:00",
-						"immediateAction": "Nee",
-						"description": "Gat in de deur",
-						"images": [{
-							"id": 1,
-							"img": "img1"
-						}],
-						"imagesNew": []
 					}
 				],
 				"overdueMaintenanceRecords": [{
