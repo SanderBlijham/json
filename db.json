@@ -246,7 +246,7 @@
 				"id": 6,
 				"user": "huurder6",
 				"dateAssignment": "2023-03-19T19:20+01:00",
-				"completedInspection": false,
+				"completed": false,
 				"damageRecords": [{
 					"id": null,
 					"used": false,
@@ -299,7 +299,7 @@
 				"id": 7,
 				"user": "huurder7",
 				"dateAssignment": "2023-03-22T19:20+01:00",
-				"completedInspection": false,
+				"completed": false,
 				"damageRecords": [{
 					"id": null,
 					"used": false,
