@@ -267,7 +267,7 @@
 				"completed": false,
 				"damageRecords": [{
 					"id": 1,
-					"used": false,
+					"used": true,
 					"location": null,
 					"newDamage": null,
 					"type": null,
@@ -279,7 +279,7 @@
 				}],
 				"overdueMaintenanceRecords": [{
 					"id": 1,
-					"used": false,
+					"used": true,
 					"location": null,
 					"type": null,
 					"immediateAction": null,
@@ -342,7 +342,7 @@
 				}],
 				"technicalInstallationInspections": [{
 					"id": 1,
-					"used": false,
+					"used": true,
 					"location": null,
 					"type": null,
 					"reportedMalfunction": null,
@@ -354,7 +354,7 @@
 				}],
 				"identifyModifications": [{
 					"id": 1,
-					"used": false,
+					"used": true,
 					"existing": null,
 					"place": null,
 					"executed": null,
